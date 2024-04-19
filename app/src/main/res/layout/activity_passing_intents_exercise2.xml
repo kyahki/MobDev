@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PassingIntentsExercise2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="137dp"
+            android:layout_height="37dp"
+            android:text="Student Profile" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="12dp"
+                android:layout_height="35dp"
+                android:layout_weight="1"
+                android:text="First Name: " />
+
+            <TextView
+                android:id="@+id/txtFName"
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:layout_weight="1" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="12dp"
+                android:layout_height="35dp"
+                android:layout_weight="1"
+                android:text="Last Name: " />
+
+            <TextView
+                android:id="@+id/txtLName"
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:layout_weight="1" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="12dp"
+                android:layout_height="35dp"
+                android:layout_weight="1"
+                android:text="Gender " />
+
+            <TextView
+                android:id="@+id/txtGender"
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:layout_weight="1" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="12dp"
+                android:layout_height="35dp"
+                android:layout_weight="1"
+                android:text="Birthdate: " />
+
+            <TextView
+                android:id="@+id/txtBirthDate"
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:layout_weight="1" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="12dp"
+                android:layout_height="35dp"
+                android:layout_weight="1"
+                android:text="Phone Number: " />
+
+            <TextView
+                android:id="@+id/txtPNum"
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:layout_weight="1" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="12dp"
+                android:layout_height="35dp"
+                android:layout_weight="1"
+                android:text="Email Address: " />
+
+            <TextView
+                android:id="@+id/txteMail"
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:layout_weight="1" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="12dp"
+                android:layout_height="35dp"
+                android:layout_weight="1"
+                android:text="Previous School: " />
+
+            <TextView
+                android:id="@+id/txtPrevSchool"
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:layout_weight="1" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="12dp"
+                android:layout_height="35dp"
+                android:layout_weight="1"
+                android:text="Status: " />
+
+            <TextView
+                android:id="@+id/txtStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:layout_weight="1" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="12dp"
+                android:layout_height="35dp"
+                android:layout_weight="1"
+                android:text="Emergency Contact: " />
+
+            <TextView
+                android:id="@+id/txtEPerson"
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:layout_weight="1" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="12dp"
+                android:layout_height="35dp"
+                android:layout_weight="1"
+                android:text="Contact Number: " />
+
+            <TextView
+                android:id="@+id/txtCNum"
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:layout_weight="1" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="12dp"
+                android:layout_height="35dp"
+                android:layout_weight="1"
+                android:text="Allergies: " />
+
+            <TextView
+                android:id="@+id/txtAllergy"
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:layout_weight="1" />
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnReturn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cornerRadius="35dp"
+            android:text="Return" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
