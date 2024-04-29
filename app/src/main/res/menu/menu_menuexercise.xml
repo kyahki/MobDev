@@ -13,7 +13,7 @@
                 android:title="Change Face" />
             <item
                 android:id="@+id/btnChangeClickable"
-                android:title="Change Size" />
+                android:title="Change to Unclickable" />
             <item
                 android:id="@+id/btnChangeTextColor"
                 android:title="Change Text Color" />

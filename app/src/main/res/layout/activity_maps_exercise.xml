@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/MapsMenu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MapsExercise">
+
+    <LinearLayout
+        android:layout_width="201dp"
+        android:layout_height="654dp"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/btnMaps1"
+            android:layout_width="match_parent"
+            android:layout_height="123dp"
+            app:srcCompat="@drawable/first" />
+
+        <ImageButton
+            android:id="@+id/btnMaps2"
+            android:layout_width="match_parent"
+            android:layout_height="123dp"
+            app:srcCompat="@drawable/ab"
+            tools:srcCompat="@drawable/ab" />
+
+        <ImageButton
+            android:id="@+id/btnMaps3"
+            android:layout_width="match_parent"
+            android:layout_height="123dp"
+            app:srcCompat="@drawable/abc" />
+
+        <ImageButton
+            android:id="@+id/btnMaps4"
+            android:layout_width="match_parent"
+            android:layout_height="123dp"
+            app:srcCompat="@drawable/abcd" />
+
+        <ImageButton
+            android:id="@+id/btnMaps5"
+            android:layout_width="match_parent"
+            android:layout_height="123dp"
+            app:srcCompat="@drawable/abcde" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
